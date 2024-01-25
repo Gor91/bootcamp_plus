@@ -1,0 +1,10 @@
+.header .header__list{
+  margin: 0 15px;
+}
+.learning__item__img{
+  width: 100%;
+}
+.agenda__item__main__wrapper,
+.agenda__item{
+  width: calc(100% / 3 - 25px);
+}

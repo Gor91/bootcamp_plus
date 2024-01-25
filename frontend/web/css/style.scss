@@ -1,0 +1,10 @@
+@import "core/normalize";
+@import "core/fonts";
+@import "core/var";
+@import "core/mixins";
+@import "core/tools";
+@import "../lib/bootstrap/scss/bootstrap";
+@import "../lib/OwlCarousel/owl.carousel.min";
+@import "pages/home";
+@import "pages/sign__up";
+@import "media/media";

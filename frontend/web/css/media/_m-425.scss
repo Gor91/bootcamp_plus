@@ -1,0 +1,36 @@
+.agenda__cont{
+  justify-content: center;
+}
+.header .navbar-brand{
+  padding-left: 0;
+  padding-right: 0;
+}
+.navbar-toggler.collapsed{
+  &:focus{
+    outline: none;
+  }
+}
+.navbar-toggler-icon{
+  width: 2.5em;
+  height: 2.5em;
+}
+.header .header__list:last-child .header__link.nav-link{
+  font-weight: normal;
+  &:after{
+    background: transparent;
+  }
+}
+.header .header__list:last-child .header__link.nav-link,
+.header .header__link.nav-link{
+  &:hover {
+    color: #DC2D27;
+    transform: translate(-20px) scale(1.1);
+  }
+}
+.header .header__list:last-child .header__link.nav-link,
+.header .header__link.nav-link{
+  &:hover:after {
+    left: calc(100% - 20px);
+    background: #DC2D27;
+  }
+}

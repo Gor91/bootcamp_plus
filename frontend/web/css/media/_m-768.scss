@@ -1,0 +1,33 @@
+.banner__title {
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.banner__nav {
+  display: none;
+}
+
+.banner__sub__title {
+  width: 100%;
+}
+
+.title, .sign__up__right__title {
+  font-size: 28px;
+}
+
+.agenda__item__main__wrapper,
+.agenda__item {
+  width: calc(100% / 2 - 25px);
+}
+
+.organize__item__figure {
+  flex-direction: column;
+}
+
+.organize__item__figure .organize__item__link {
+  margin-right: 0;
+
+  .organize__item__img {
+    height: 90px;
+  }
+}
